@@ -8,6 +8,8 @@ defmodule OpenaiEx.ChatCompletion do
 
   - `:model`
   - `:messages`
+  - `:functions`
+  - `:function_call`
   - `:temperature`
   - `:top_p`
   - `:n`
@@ -21,6 +23,8 @@ defmodule OpenaiEx.ChatCompletion do
   @api_fields [
     :model,
     :messages,
+    :functions,
+    :function_call,
     :temperature,
     :top_p,
     :n,
